@@ -25,25 +25,68 @@
 	<meta name="msapplication-TileImage" content="assets/favicon/ms-icon-144x144.png">
 	<meta name="theme-color" content="#ffffff">
   </head>
-  <body>
-    <nav>
-      <button id="homenav">Home</button>
-      <button id="singlenav">Flip one coin</button>
-      <button id="multinav">Flip multiple coins</button>
-      <button id="guessnav">Guess the result</button>
-    </nav>
-    <div id="home">
-      
-    </div>    
-    <div id="single" class="hidden">
-      
-    </div>
-    <div id="multi" class="hidden">
-      
-    </div>
-    <div id="guess" class="hidden">
-      
-    </div>
-	<script src="main.js"></script>
-  </body>
+</head>
+<body>
+  <nav>
+    <button id="homenav" class="nav">Home</button>
+    <button id="singlenav" class="nav">Flip one coin</button>
+    <button id="multinav" class="nav">Flip multiple coins</button>
+    <button id="guessnav" class="nav">Guess the result</button>
+  </nav>
+  <br>
+  <div id="home" class="active">
+    <h3>Please choose a game you want to play : </h3>
+    <ol>
+      <li>
+        <b>Single Coin Toss</b>
+      </li>
+      <li>
+        <b>Multiple Coin Flips</b>
+      </li>
+      <li>
+        <b>Guess the Result</b>
+      </li>
+    </ol>
+  </div>
+
+  <div id="single" class="hidden">
+
+    <h1>Flip a coin</h1>
+  
+    <button id="coin">single Flip</button>
+
+    <p>Result: <span id="singleFlipResult"></span></p>
+
+    <img src="./assets/img/coin.png" id="quarter" />
+  </div>
+
+  <div id="multi" class="hidden">
+    <h1>Flip many coins</h1>
+    <form id="multipleCoins">
+      <label for="number">
+        <strong>How many coins you want to flip?</strong>
+      </label>
+      <input type="number" name="number" id="number" placeholder="Enter a whole number (no fractions)" />
+      <input type="submit" value="Flip" />
+    </form>
+    <h2>Result:</h2>
+    <p id="heads"></p>
+    <p id="tails"></p>
+  </div>
+
+  <div id="guess" class="hidden">
+    <h1>Guess the Result</h1>
+    <h3>Please slect your guess : </h3>
+    <button id="guessHeads">Heads</button>
+    <button id="guessTails">Tails</button>
+    <h3>Results:</h3>
+    <p id='call'></p>
+    <p id="flip"></p>
+    <p id="result"></p>
+    <p></p>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+
 </html>
