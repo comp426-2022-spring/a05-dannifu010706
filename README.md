@@ -128,7 +128,7 @@ X-Powered-By: Express
 Content-Type: application/json; charset=utf-8
 Content-Length: 32
 ETag: W/"20-AI3b+IJTVuuq4p+UCNVdxC54Y04"
-Date: Wed, 27 Apr 2022 22:04:13 EST
+Date: Wed, 28 Apr 2022 2:04:13 GMT
 Connection: keep-alive
 Keep-Alive: timeout=5
 ```
@@ -156,7 +156,7 @@ X-Powered-By: Express
 Content-Type: application/json; charset=utf-8
 Content-Length: 38
 ETag: W/"26-7vzOf0OSO0wnvL5QfhOufq8o8b4"
-Date: Thu, 28 Apr 2022 02:07:29 EST
+Date: Thu, 28 Apr 2022 02:07:29 GMT
 Connection: keep-alive
 Keep-Alive: timeout=5
 ```
@@ -183,7 +183,7 @@ X-Powered-By: Express
 Content-Type: application/json; charset=utf-8
 Content-Length: 47
 ETag: W/"2f-7jHpBxeRlMwmX45a5nEiITPVllI"
-Date: Thu, 28 Apr 2022 02:10:52 EST
+Date: Thu, 28 Apr 2022 02:10:52 GMT
 Connection: keep-alive
 Keep-Alive: timeout=5
 ```
@@ -193,7 +193,7 @@ Keep-Alive: timeout=5
 #### Request cURL
 
 ```
-curl -X POST -H 'Content-Type: application/json' -d '{"guess":"heads"}' http://localhost:5555/app/flip/call/
+curl -X POST -H 'Content-Type: application/json' -d '{"guess":"heads"}' http://localhost:5555/app/flip/call
 ```
 
 #### Response body
@@ -208,9 +208,9 @@ curl -X POST -H 'Content-Type: application/json' -d '{"guess":"heads"}' http://l
 HTTP/1.1 200 OK
 X-Powered-By: Express
 Content-Type: application/json; charset=utf-8
-Content-Length: 46
+Content-Length: 36
 ETag: W/"2e-U/q8iZ4JKqczXPIvtwiVRpEFlRc"
-Date: Thu, 07 Apr 2022 16:30:07 GMT
+Date: Thu, 28 Apr 2022 02:30:07 GMT
 Connection: keep-alive
 Keep-Alive: timeout=5
 ```
