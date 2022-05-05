@@ -1,9 +1,9 @@
 div.hidden {
-  display: none;
+  display: box;
 }
 
 div.active {
-  border: 5px solid red;
+  border: 5px solid rgb(50, 73, 176);
 }
 
 img.bigcoin {
